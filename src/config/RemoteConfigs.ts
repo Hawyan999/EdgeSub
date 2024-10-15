@@ -5,6 +5,10 @@ type RemoteConfig = {
 
 export const RemoteConfigs: RemoteConfig[] = [
     {
+        key: "HY自用版",
+        value: "https://raw.githubusercontent.com/Hawyan999/hytiktokrule/refs/heads/main/Hylitetiktokloadbalance.ini"
+    },
+    {
         key: "ACL_默认版",
         value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
     },
